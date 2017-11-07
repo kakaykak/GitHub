@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+/*** MEDIA QUERIES ***/
+/* JIKA BERUKURAN 980px atau kurang */
+@media screen and (max-width: 980px){
+	#pagewrap {
+		width: 94%;
+	}
+	#content {
+		width: 65%;
+	}
+	#sidebar {
+		width: 30%;
+	}
+}
+/** jika berukuran 700px atau kurang**/
+@media screen and (max-width: 700px) {
+	#content {
+		width: auto;
+		float: none;
+	}
+	#sidebar {
+		width: auto;
+		float: none;
+	}
+}
+/* jika berukuran 480px atau kurang*/
+@media screen and (max-width: 480px) {
+	#header{
+		height: auto;
+	}
+	h1{
+		font-size: 24px;
+	}
+	#sidebar {
+		dispaly; none;
+	}
+}
+
+/* jika berukuran 980px atau kurang*/
+@media screen and (max-width: 980px) {
+	#pagewrap {
+		width: 96%;
+	}
+	#content {
+		width: 66%;
+	}
+	#sidebar {
+		width: 30%;
+	}
+}
+/** jika berukuran 700px atau kurang**/
+@media screen and (max-width: 700px) {
+	#content {
+		width: auto;
+		float: none;
+	}
+	#sidebar {
+		width: auto;
+		float: none;
+	}
+}
+/* jika berukuran 480px atau kurang*/
+@media screen and (max-width: 480px) {
+	#header {
+		height: auto;
+	}
+	#sidebar {
+		display:none;
+	}
+}
